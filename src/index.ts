@@ -31,4 +31,4 @@ if (!isBrowser() && !isWebWorker()) {
     }
 }
 
-module.exports = require(useES6?'./es6':'./es5');
+module.exports = require('./es5');
